@@ -1,0 +1,24 @@
+<!-- compress at https://jakearchibald.github.io/svgomg/ -->
+<svg
+	xmlns="http://www.w3.org/2000/svg" width="355" height="58">
+	<defs>
+		<clipPath id="a" clipPathUnits="userSpaceOnUse">
+			<path d="M54.95-5h66.357v66H54.951Zm6.095 41.06v9.318h56.907V36.06z" class="powerclip" style="fill:red;stroke-width:1.37913"/>
+		</clipPath>
+		<clipPath id="b" clipPathUnits="userSpaceOnUse">
+			<path d="M54.35-5h67.558v66H54.35Zm3.281 40.887v9h59.947v-9z" class="powerclip" style="fill:red;stroke-width:.871441"/>
+		</clipPath>
+		<clipPath id="c" clipPathUnits="userSpaceOnUse">
+			<path d="M54.35-5h67.558v66H54.35Zm3.281 40.887v9h59.947v-9z" class="powerclip" style="fill:red;stroke-width:.871441"/>
+		</clipPath>
+	</defs>
+	<g style="fill:#000">
+		<path d="M3.619 45.955c0 6.185 5.83 9.98 10.072 9.98.69 0 31.591.147 31.46 0l4.593-11.1H19.14c-2.74 0-4.408-1.959-4.408-4.371v-25.43c0-2.297 1.59-4.334 4.014-4.334h33.373s-.053-10.636 0-10.7H13.632C7.53 0 3.619 3.046 3.619 9.981Z" style="font-weight:700;font-size:86.2281px;font-family:D-DIN;-inkscape-font-specification:&quot;D-DIN Bold&quot;;fill:#000;stroke-width:3.34888" transform="matrix(.99997 0 0 1 -2.619 1)"/>
+		<path d="M98.792 43.976 103.208 56h13.7L94.524 0H81.64L59.35 56h13.606l4.407-12.08Zm-2.841-7.698H80.213l7.822-21.507z" clip-path="url(#b)" style="font-weight:700;font-size:86.2281px;font-family:D-DIN;-inkscape-font-specification:&quot;D-DIN Bold&quot;;fill:#000;stroke-width:3.39856" transform="matrix(.99997 0 0 1 -6.817 1)"/>
+		<path d="M122.709 0v56h25.437V44.887H134.22V0Z" style="font-weight:700;font-size:86.2281px;font-family:D-DIN;-inkscape-font-specification:&quot;D-DIN Bold&quot;;fill:#000;stroke-width:3.36636" transform="matrix(.99997 0 0 1 -2.619 1)"/>
+		<path d="m148.435 0 22.525 56h10.751L204.34 0h-13.427l-14.525 40.713L161.862 0Z" style="font-weight:700;font-size:86.2281px;font-family:D-DIN;-inkscape-font-specification:&quot;D-DIN Bold&quot;;fill:#000;stroke-width:3.5424" transform="matrix(.99997 0 0 1 -2.619 1)"/>
+		<path d="M214.993 0v56h11.513V0Z" style="font-weight:700;font-size:86.2281px;font-family:D-DIN;-inkscape-font-specification:&quot;D-DIN Bold&quot;;fill:#000;stroke-width:3.36639" transform="matrix(.99997 0 0 1 -2.619 1)"/>
+		<path d="M356.63 0h-12.346v35.06L316.41 0h-12.346v56h12.346V21.02L344.284 56h12.346z" style="font-weight:700;font-size:86.2281px;font-family:D-DIN;-inkscape-font-specification:&quot;D-DIN Bold&quot;;fill:#000;stroke-width:3.5335" transform="matrix(.99997 0 0 1 -2.619 1)"/>
+		<path d="M98.792 43.976 103.208 56h13.7L94.524 0H81.64L59.35 56h13.606l4.407-12.08Zm-2.841-7.698H80.213l7.822-21.507z" clip-path="url(#c)" style="font-weight:700;font-size:86.2281px;font-family:D-DIN;-inkscape-font-specification:&quot;D-DIN Bold&quot;;fill:#000;stroke-width:3.39856" transform="matrix(.99997 0 0 1 174.531 1)"/>
+	</g>
+</svg>
