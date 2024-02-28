@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-const About = () => {
+const Company = () => {
   return (
     <section
       id="about"
@@ -192,4 +192,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default Company;

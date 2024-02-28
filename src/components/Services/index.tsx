@@ -2,9 +2,9 @@
 import axios from "axios";
 import { useEffect, useState } from "react";
 import SectionTitle from "../Common/SectionTitle";
-import PricingBox from "./PricingBox";
+import ServicesBox from "./ServicesBox";
 
-const Pricing = () => {
+const Services = () => {
   const [products, setProducts] = useState([]);
 
   useEffect(() => {
@@ -24,8 +24,8 @@ const Pricing = () => {
       <div className="container">
         <div className="mb-[60px]">
           <SectionTitle
-            subtitle="Pricing Table"
-            title="Our Pricing Plan"
+            subtitle="Services Table"
+            title="Our Services Plan"
             paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
             center
           />
@@ -33,10 +33,10 @@ const Pricing = () => {
 
         <div className="-mx-4 flex flex-wrap justify-center">
           {products.map((product, i) => (
-            <PricingBox key={1} product={product} />
+            <ServicesBox key={1} product={product} />
           ))}
           {/*           
-          <PricingBox
+          <ServicesBox
             popular={false}
             packageName="Lite"
             price="19.99"
@@ -50,8 +50,8 @@ const Pricing = () => {
             <OfferList text="Free updates" />
             <OfferList text="Use on 1 (one) project" />
             <OfferList text="3 Months support" />
-          </PricingBox>
-          <PricingBox
+          </ServicesBox>
+          <ServicesBox
             popular={true}
             packageName="Basic"
             price="19.99"
@@ -65,8 +65,8 @@ const Pricing = () => {
             <OfferList text="Free updates" />
             <OfferList text="Use on 1 (one) project" />
             <OfferList text="3 Months support" />
-          </PricingBox>
-          <PricingBox
+          </ServicesBox>
+          <ServicesBox
             packageName="Plus"
             price="70.99"
             subtitle="STARTING FROM"
@@ -79,11 +79,11 @@ const Pricing = () => {
             <OfferList text="Free updates" />
             <OfferList text="Use on 1 (one) project" />
             <OfferList text="3 Months support" />
-          </PricingBox> */}
+          </ServicesBox> */}
         </div>
       </div>
     </section>
   );
 };
 
-export default Pricing;
+export default Services;

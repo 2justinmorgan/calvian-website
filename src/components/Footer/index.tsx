@@ -97,7 +97,7 @@ const Footer = () => {
           <div className="w-full px-4 sm:w-1/2 md:w-1/2 lg:w-2/12 xl:w-2/12">
             <div className="mb-10 w-full">
               <h4 className="mb-9 text-lg font-semibold text-white">
-                About Us
+                Company
               </h4>
               <ul>
                 <li>
@@ -121,7 +121,7 @@ const Footer = () => {
                     href="/#"
                     className="mb-3 inline-block text-base text-gray-7 hover:text-primary"
                   >
-                    About
+                    Company
                   </a>
                 </li>
                 <li>
@@ -252,7 +252,7 @@ const Footer = () => {
                     href="/#"
                     className="mb-3 inline-block text-base text-gray-7 hover:text-primary"
                   >
-                    About
+                    Company
                   </a>
                 </li>
               </ul>

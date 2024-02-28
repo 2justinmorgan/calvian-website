@@ -2,7 +2,7 @@ import axios from "axios";
 import React from "react";
 import OfferList from "./OfferList";
 
-interface PricingBoxProps {
+interface ServicesBoxProps {
   price: any;
   purchaseLink: string;
   packageName: string;
@@ -12,7 +12,7 @@ interface PricingBoxProps {
   children: React.ReactNode;
 }
 
-const PricingBox = ({ product }) => {
+const ServicesBox = ({ product }) => {
   const {} = product;
 
   // POST request
@@ -109,4 +109,4 @@ const PricingBox = ({ product }) => {
   );
 };
 
-export default PricingBox;
+export default ServicesBox;

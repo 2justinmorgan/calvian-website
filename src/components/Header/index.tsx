@@ -103,7 +103,7 @@ const Header = () => {
               </Link>
             </div>
             <div className="flex w-full items-center justify-between px-4">
-              <div>
+              <div style={{marginRight: "auto", marginLeft: "auto", paddingRight: "12%"}}>
                 <button
                   onClick={navbarToggleHandler}
                   id="navbarToggler"
@@ -262,6 +262,7 @@ const Header = () => {
               </div>
               <div className="hidden items-center justify-end pr-16 sm:flex lg:pr-0">
                 {/* theme toggler */}
+                {/*
                 <button
                   aria-label="theme toggler"
                   onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
@@ -287,6 +288,9 @@ const Header = () => {
                     </svg>
                   </span>
                 </button>
+                &nbsp;
+                &nbsp;
+              */}
 
                 {session?.user ? (
                   <>
@@ -319,37 +323,23 @@ const Header = () => {
                     {pathUrl !== "/" ? (
                       <>
                         <Link
-                          href="/auth/signin"
-                          className="px-7 py-3 text-base font-medium text-dark hover:opacity-70 dark:text-white"
-                        >
-                          Sign In
-                        </Link>
-                        <Link
-                          href="/auth/signup"
+                          href="/contact"
                           className="rounded-lg bg-primary px-6 py-3 text-base font-medium text-white duration-300 ease-in-out hover:bg-primary/90 dark:bg-white/10 dark:hover:bg-white/20"
                         >
-                          Sign Up
+                          Contact Us
                         </Link>
                       </>
                     ) : (
                       <>
                         <Link
-                          href="/auth/signin"
-                          className={`px-7 py-3 text-base font-medium hover:opacity-70 ${
-                            sticky ? "text-dark dark:text-white" : "text-white"
-                          }`}
-                        >
-                          Sign In
-                        </Link>
-                        <Link
-                          href="/auth/signup"
+                          href="/contact"
                           className={`rounded-lg px-6 py-3 text-base font-medium text-white duration-300 ease-in-out ${
                             sticky
                               ? "bg-primary hover:bg-primary/90 dark:bg-white/10 dark:hover:bg-white/20"
                               : "bg-white/10 hover:bg-white/20"
                           }`}
                         >
-                          Sign Up
+                          Contact Us
                         </Link>
                       </>
                     )}
