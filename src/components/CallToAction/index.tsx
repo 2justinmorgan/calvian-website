@@ -2,7 +2,7 @@ import Link from "next/link";
 
 const CallToAction = () => {
   return (
-    <section className="bg-primary relative z-10 overflow-hidden py-20 lg:py-[115px]">
+    <section className="bg-blue-900 relative z-10 overflow-hidden py-20 lg:py-[115px]">
       <div className="container mx-auto">
         <div className="relative overflow-hidden">
           <div className="-mx-4 flex flex-wrap items-stretch">

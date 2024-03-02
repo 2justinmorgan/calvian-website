@@ -70,7 +70,7 @@ const Signin = () => {
                     onChange={(e) =>
                       setLoginData({ ...loginData, email: e.target.value })
                     }
-                    className="w-full rounded-md border border-stroke bg-transparent px-5 py-3 text-base text-dark outline-none transition placeholder:text-dark-6 focus:border-primary focus-visible:shadow-none dark:border-dark-3 dark:text-white dark:focus:border-primary"
+                    className="w-full rounded-md border border-stroke bg-transparent px-5 py-3 text-base text-dark outline-none transition placeholder:text-dark-6 focus:border-blue-900 focus-visible:shadow-none dark:border-dark-3 dark:text-white dark:focus:border-blue-900"
                   />
                 </div>
                 <div className="mb-[22px]">
@@ -80,14 +80,14 @@ const Signin = () => {
                     onChange={(e) =>
                       setLoginData({ ...loginData, password: e.target.value })
                     }
-                    className="w-full rounded-md border border-stroke bg-transparent px-5 py-3 text-base text-dark outline-none transition placeholder:text-dark-6 focus:border-primary focus-visible:shadow-none dark:border-dark-3 dark:text-white dark:focus:border-primary"
+                    className="w-full rounded-md border border-stroke bg-transparent px-5 py-3 text-base text-dark outline-none transition placeholder:text-dark-6 focus:border-blue-900 focus-visible:shadow-none dark:border-dark-3 dark:text-white dark:focus:border-blue-900"
                   />
                 </div>
                 <div className="mb-9">
                   <button
                     onClick={loginUser}
                     type="submit"
-                    className="w-full cursor-pointer rounded-md border border-primary bg-primary px-5 py-3 text-base text-white transition duration-300 ease-in-out hover:bg-primary/90"
+                    className="w-full cursor-pointer rounded-md border border-blue-900 bg-blue-900 px-5 py-3 text-base text-white transition duration-300 ease-in-out hover:bg-blue-900/90"
                   >
                     Sign In
                   </button>
@@ -142,7 +142,7 @@ const Signin = () => {
               </ul>
               <a
                 href="/#"
-                className="mb-2 inline-block text-base text-dark hover:text-primary dark:text-white dark:hover:text-primary"
+                className="mb-2 inline-block text-base text-dark hover:text-blue-900 dark:text-white dark:hover:text-blue-900"
               >
                 Forget Password?
               </a>
@@ -150,7 +150,7 @@ const Signin = () => {
                 Not a member yet?{" "}
                 <Link
                   href="/auth/signup"
-                  className="text-primary hover:underline"
+                  className="text-blue-900 hover:underline"
                 >
                   Sign Up
                 </Link>

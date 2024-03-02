@@ -66,7 +66,7 @@ const SignUp = () => {
                     placeholder="Name"
                     name="name"
                     required
-                    className="w-full rounded-md border border-stroke bg-transparent px-5 py-3 text-base text-dark outline-none transition placeholder:text-dark-6 focus:border-primary focus-visible:shadow-none dark:border-dark-3 dark:text-white dark:focus:border-primary"
+                    className="w-full rounded-md border border-stroke bg-transparent px-5 py-3 text-base text-dark outline-none transition placeholder:text-dark-6 focus:border-blue-900 focus-visible:shadow-none dark:border-dark-3 dark:text-white dark:focus:border-blue-900"
                   />
                 </div>
                 <div className="mb-[22px]">
@@ -75,7 +75,7 @@ const SignUp = () => {
                     placeholder="Email"
                     name="email"
                     required
-                    className="w-full rounded-md border border-stroke bg-transparent px-5 py-3 text-base text-dark outline-none transition placeholder:text-dark-6 focus:border-primary focus-visible:shadow-none dark:border-dark-3 dark:text-white dark:focus:border-primary"
+                    className="w-full rounded-md border border-stroke bg-transparent px-5 py-3 text-base text-dark outline-none transition placeholder:text-dark-6 focus:border-blue-900 focus-visible:shadow-none dark:border-dark-3 dark:text-white dark:focus:border-blue-900"
                   />
                 </div>
                 <div className="mb-[22px]">
@@ -84,13 +84,13 @@ const SignUp = () => {
                     placeholder="Password"
                     name="password"
                     required
-                    className="w-full rounded-md border border-stroke bg-transparent px-5 py-3 text-base text-dark outline-none transition placeholder:text-dark-6 focus:border-primary focus-visible:shadow-none dark:border-dark-3 dark:text-white dark:focus:border-primary"
+                    className="w-full rounded-md border border-stroke bg-transparent px-5 py-3 text-base text-dark outline-none transition placeholder:text-dark-6 focus:border-blue-900 focus-visible:shadow-none dark:border-dark-3 dark:text-white dark:focus:border-blue-900"
                   />
                 </div>
                 <div className="mb-9">
                   <button
                     type="submit"
-                    className="w-full cursor-pointer rounded-md border border-primary bg-primary px-5 py-3 text-base text-white transition duration-300 ease-in-out hover:bg-blue-dark"
+                    className="w-full cursor-pointer rounded-md border border-blue-900 bg-blue-900 px-5 py-3 text-base text-white transition duration-300 ease-in-out hover:bg-blue-dark"
                   >
                     Sign Up
                   </button>
@@ -146,11 +146,11 @@ const SignUp = () => {
 
               <p className="text-body-secondary mb-4 text-base">
                 By creating an account you are agree with our{" "}
-                <a href="/#" className="text-primary hover:underline">
+                <a href="/#" className="text-blue-900 hover:underline">
                   Privacy
                 </a>{" "}
                 and{" "}
-                <a href="/#" className="text-primary hover:underline">
+                <a href="/#" className="text-blue-900 hover:underline">
                   Policy
                 </a>
               </p>
@@ -159,7 +159,7 @@ const SignUp = () => {
                 Already have an account?
                 <Link
                   href="/auth/signin"
-                  className="text-primary hover:underline"
+                  className="text-blue-900 hover:underline"
                 >
                   Sign In
                 </Link>
